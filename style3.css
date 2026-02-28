@@ -501,9 +501,29 @@ footer ul{
   font-weight:500;
   letter-spacing:1px;
 }
-@media (min-width: 1024px) {
-  .hero-section {
-    background-position: left center;
-    background-size: cover;
+@media (max-width: 1024px) {
+  .hero {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
+}
+.nav-links ul {
+  padding-left: 20px;
+}
+footer ul{
+  padding-left: 15px;
+}
+@media (max-width: 1440px) {
+  .hero {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+.nav-links ul {
+  padding-left: 20px;
+}
+footer ul{
+  padding-left: 15px;
 }
